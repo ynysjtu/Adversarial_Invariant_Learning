@@ -13,7 +13,7 @@ import numpy as np
 from domainbed import networks
 from domainbed.lib.misc import random_pairs_of_minibatches
 
-from domainbed.vae import VAE, vae_train, reluloss_coef, soft_arg_max, VAE_Res, vae_train_res
+from domainbed.vae import VAE, vae_train, reluloss_coef, soft_arg_max #, VAE_Res, vae_train_res
 
 ALGORITHMS = [
     'ERM',
