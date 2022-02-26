@@ -21,7 +21,7 @@ For example, the following command launches a training and model selection task 
 python -m domainbed.scripts.sweep launch\
        --data_dir=/my/datasets/path\
        --output_dir=/my/sweep/output/path\
-       --command_launcher MyLauncher\
+       --command_launcher local\
        --algorithms IRM AIL\
        --datasets ColoredMNIST CKMNIST\
        --n_hparams 20\
